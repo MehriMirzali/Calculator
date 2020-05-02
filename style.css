@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext');
+html, body { height:100% }
+body{
+    background: linear-gradient(to bottom right,#9256e0, #ff9768);
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+#calculator{
+    margin: auto;
+    width: 400px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#result{
+    height: 140px;
+    background-color:#212121;
+    border-radius: 4px 4px 0 0;
+}
+.number, .emel{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#equal{
+    width: 200px;
+    background-color: #e62e89;
+    font: 300 35px/70px 'Lato', sans-serif;
+    color: #fff;
+    text-align: center;
+    border-radius: 0 0 4px 0;
+}
+#divide, #x, #minus, #plus{
+    background-color: #894ed9;
+    font: 300 22px/70px 'Lato', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.number, .emel{
+    font: 300 22px/70px 'Lato', sans-serif;
+    color: #212121;
+    text-align: center;
+}
+button:hover{
+    background-color: #f5f5f5;
+}
+p{
+    text-align: right;
+    margin-right: 30px;
+}
+#input p{
+    padding-top: 35px;
+    font: 400 18px 'Lato', sans-serif;
+    color: #d98192;
+    text-align: right;
+}
+#answer p{ 
+    font: 300 50px 'Lato', sans-serif;
+    color: #fff;
+    text-align: right;
+    margin-top: 20px; 
+}
+#plus:hover{
+    background-color: #7137bf;
+}
+#divide:hover{
+    background-color: #7137bf;
+}
+#x:hover{
+    background-color: #7137bf;
+}
+#minus:hover{
+    background-color: #7137bf;
+}
+#equal:hover{
+    background-color: #cd1873;
+}
+#zero{
+    border-radius: 0 0 0 4px;
+}
